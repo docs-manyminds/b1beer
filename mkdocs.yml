@@ -1,0 +1,108 @@
+site_name: Manual do B1Beer
+site_description: 'Manual do B1Beer - ManyMinds'
+site_author: 'Lucas de Souza'
+
+# Link ao clicar no logo
+extra:
+    homepage: https://docs-manyminds.github.io/b1beer
+    generator: false
+    social:
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/manymindsbr/
+    - icon: fontawesome/brands/linkedin
+      link: https://br.linkedin.com/company/manymindsbr
+    - icon: fontawesome/brands/manyminds
+      link: http://www.manyminds.com.br/
+    - icon: fontawesome/brands/b1food
+      link: https://b1food.manyminds.com.br/
+
+extra_css:
+    - 'assets/stylesheets/extra.css'
+
+markdown_extensions:
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
+    - pymdownx.tabbed
+    - attr_list
+    - pymdownx.critic
+    - pymdownx.betterem:
+        smart_enable: all
+    - pymdownx.caret
+    - pymdownx.mark
+    - pymdownx.tilde
+    - pymdownx.smartsymbols
+    - pymdownx.highlight
+    - pymdownx.snippets
+    - abbr
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+
+theme:
+    # Nome do Tema
+    name: material
+    #name: null
+    custom_dir: material
+    # Default values, taken from mkdocs_theme.yml
+    language: pt
+    features:
+        - navigation.instant
+        - search.suggest
+        - search.share
+        - header.autohide
+    # Logos
+    logo: 'assets/images/b1beer_logo.png'
+    favicon: 'assets/images/b1beer.ico'
+    # Estilo
+    palette:
+        media: "(prefers-color-scheme: light)"
+        scheme: default
+        primary: indigo
+        accent: indigo
+        toggle:
+            icon: material/toggle-switch-off-outline
+            name: Switch to dark mode
+
+nav:
+    #- Bem vindo a documentação do B1Food: index.md
+    - Compras: 
+        - Solicitação de Compra: compras/solicitacao.md
+        - Pedido de Compra: compras/pedido.md
+        - Recebimento de Mercadoria: compras/recebimento.md
+        - Pedido de Venda: compras/pedido_venda.md
+    - Inventário: inventario/inventario.md
+    - Conciliação: 
+        - Formas de Pagamentos: conciliacao/forma_pagamento.md
+        - Justificativas: conciliacao/justificativa.md
+        - Realizar Conciliação: conciliacao/realizar_conciliacao.md
+        - Conciliação de CardService: conciliacao/conciliacao_cardservice.md
+        - Manutenção: conciliacao/manutencao.md
+        - De Para de Produtos: conciliacao/depara.md
+        - Vencimento por clientes à receber: conciliacao/vencimento_porcliente.md
+        - Log de Importações: conciliacao/log.md
+        - Monitoramento: conciliacao/monitoramento.md
+        - Relatório de Conciliação: conciliacao/relatorio_conciliacao.md
+        - Funcionários da Conciliação: conciliacao/funcionarios.md
+        - Terminais da Conciliação: conciliacao/terminais.md
+        - Importação Manual: conciliacao/importacao_manual.md
+
+    - Estoque: 
+        - Apontamento de Perdas: estoque/perda.md
+        - Ficha Técnica: estoque/ficha.md
+        - Transferência de Depósito: estoque/transferencia.md
+    - Produção: producao/producao.md
+
+    - Documentos Fiscais: 
+        - De Para de Produtos: docs_fiscais/depara.md
+        - Nota Fiscal de Entrada: docs_fiscais/nfe.md
+        - Listagem de CTe: docs_fiscais/cte.md
+
+    - Integrações: 
+        - CardService: integracao/cardservice.md
+    
+plugins:
+    - search:  
+        lang: pt
+    
+copyright: '© Copyright 2021 | ManyMinds'

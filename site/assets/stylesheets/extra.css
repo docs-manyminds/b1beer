@@ -1,0 +1,109 @@
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+h2 {
+	color: #fba51a ;
+}
+.md-typeset mark {
+	background-color: #ff91007d;
+}
+
+.close {
+	color: red;
+}
+
+.check {
+	color: green;
+}
+
+.pen {
+	color: orange;
+}
+
+.search {
+	color: #ca7035;
+}
+
+.rejeitar {
+	color: red;
+}
+
+.aprovar {
+	color: green;
+}
+
+.verde {
+	color: #5cb85c;
+}
+
+.preto {
+	color: black;
+}
+
+.vermelho {
+	color: red;
+}
+
+.laranja {
+	color: orange;
+}
+
+.azul_status {
+	color: #5bc0de;
+}
+
+.verde_forte {
+	color: #00897B
+}
+
+.marrom {
+	color:  #ca7035;
+}
+
+.check_aprovar {
+	color:  #FFB236;
+}
+
+.md-header__button.md-logo svg{
+	width: 2.5rem;
+    height: 2.5rem;
+}
+
+.monitoramento_01 {
+	color: white;
+}
+
+.monitoramento_02 {
+	color: yellow;
+}
+
+.monitoramento_03 {
+	color: #5ae64d;
+}
+
+.monitoramento_04 {
+	color: red;
+}
+
+.monitoramento_05 {
+	color: #adaba9;
+}
+
+.monitoramento_06 {
+	color: #4575e6;
+}
+
+.monitoramento_07 {
+	color: #e6771a;
+}
+
+.monitoramento_08 {
+	color: #3a2464;
+}
+
+.monitoramento_09 {
+	color: #3aac29;
+}
+

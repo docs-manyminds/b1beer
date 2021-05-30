@@ -1,0 +1,88 @@
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+h2 {
+	color: #fba51a ;
+}
+.md-typeset mark {
+	background-color: #ff91007d;
+}
+
+.close {
+	color: red;
+}
+
+.check {
+	color: green;
+}
+
+.pen {
+	color: orange;
+}
+
+.search {
+	color: #ca7035;
+}
+
+.rejeitar {
+	color: red;
+}
+
+.aprovar {
+	color: green;
+}
+
+.verde {
+	color: #5cb85c;
+}
+
+.preto {
+	color: black;
+}
+
+.vermelho {
+	color: red;
+}
+
+.laranja {
+	color: orange;
+}
+
+.azul_status {
+	color: #5bc0de;
+}
+
+.verde_forte {
+	color: #00897B
+}
+
+.marrom {
+	color:  #ca7035;
+}
+
+.check_aprovar {
+	color:  #FFB236;
+}
+
+.md-header__button.md-logo svg{
+	width: 2.5rem;
+    height: 2.5rem;
+}
+
+.monitoramento_01 {
+	color: white;
+}
+
+.monitoramento_02 {
+	color: yellow;
+}
+
+.monitoramento_03 {
+	color: green;
+}
+
+.monitoramento_04 {
+	color: red;
+}
