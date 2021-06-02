@@ -18,7 +18,7 @@
     
     
       
-        <title>Inventário - Manual do B1Beer</title>
+        <title>Monitoramento de Etapas - Manual do B1Beer</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#inventario" class="md-skip">
+        <a href="#monitoramento-de-etapas" class="md-skip">
           Ir para o conteúdo
         </a>
       
@@ -99,7 +99,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Inventário
+              Monitoramento de Etapas
             
           </span>
         </div>
@@ -254,56 +254,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Inventário
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../inventario/inventario/" class="md-nav__link">
         Inventário
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Índice">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Índice
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#contagem-de-estoque-manual" class="md-nav__link">
-    Contagem de Estoque - Manual
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#contagem-de-estoque-agrupado" class="md-nav__link">
-    Contagem de Estoque - Agrupado
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -566,12 +521,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
       
       <label class="md-nav__link" for="__nav_5">
         Produção
@@ -589,7 +546,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../producao/etapas/" class="md-nav__link">
+      <a href="../etapas/" class="md-nav__link">
         Etapas de Produção
       </a>
     </li>
@@ -601,7 +558,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../producao/fichatecnica/" class="md-nav__link">
+      <a href="../fichatecnica/" class="md-nav__link">
         Fichas técnicas
       </a>
     </li>
@@ -613,7 +570,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../producao/producao/" class="md-nav__link">
+      <a href="../producao/" class="md-nav__link">
         Ordem de Produção
       </a>
     </li>
@@ -625,7 +582,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../producao/envase/" class="md-nav__link">
+      <a href="../envase/" class="md-nav__link">
         Envase
       </a>
     </li>
@@ -637,7 +594,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../producao/medicao/" class="md-nav__link">
+      <a href="../medicao/" class="md-nav__link">
         Medição
       </a>
     </li>
@@ -647,11 +604,20 @@
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../producao/monitoramento/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Monitoramento de Etapas
       </a>
+      
     </li>
   
 
@@ -932,28 +898,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Índice
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#contagem-de-estoque-manual" class="md-nav__link">
-    Contagem de Estoque - Manual
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#contagem-de-estoque-agrupado" class="md-nav__link">
-    Contagem de Estoque - Agrupado
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -965,182 +909,21 @@
               
                 
                 
-                <h1 id="inventario"><strong>Inventário</strong></h1>
-<p><strong><em><code>Menu: Inventário</code></em></strong></p>
+                <h1 id="monitoramento-de-etapas"><strong>Monitoramento de Etapas</strong></h1>
+<p><strong><em><code>Menu: Produção -&gt; Monitoramento de Etapas</code></em></strong></p>
 <hr />
-<p>O Módulo de <strong><mark>Inventário</mark></strong> é integrada ao <em>SAP Business One</em> e quem irá utilizar é a equipe da loja, pois esse módulo é para criação de uma contagem de estoque, onde ela pode ser feita diária, semanal ou mensal, depende do processo definido pela empresa.</p>
-<p>Na tela inicial do <strong><mark>Inventário</mark></strong> é possível ver todas que já foram criadas e qual o <strong>Status</strong> de cada uma delas.</p>
-<p><img alt="Inventario" src="../../img/inventario_01.png" /></p>
+<p>O Módulo de <strong><mark>Produção</mark></strong> é integrada ao <em>SAP Business One</em> e quem irá utilizar é a equipe da loja, pois esse módulo é para criação de ordens de produção, onde irá sair <strong>insumos</strong> do estoque e entrar o <strong>produto acabado</strong>.</p>
+<p>Na tela inicial da <strong><mark>Ordem de Produção</mark></strong> é possível ver todas que já foram criadas e qual o <strong>Status</strong> de cada uma delas.</p>
+<p><img alt="Produção" src="../../img/op_01.png" /></p>
 <div class="admonition legenda">
 <p class="admonition-title">Legenda</p>
 <div class="tabbed-set" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">Status</label><div class="tabbed-content">
-<p><strong><span class="twemoji azul_status"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"/></svg></span> - Contagem em Andamento</strong>: Esse <strong>Status</strong> quer dizer que o <strong><mark>Inventário</mark></strong> está aguardando para ser enviada para entrar na fila da integração com <em>SAP Business One</em>.</p>
-<p><strong><span class="twemoji preto"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"/></svg></span> - Aguardando integração</strong>: Esse <strong>Status</strong> quer dizer que o <strong><mark>Inventário</mark></strong> está na fila para integração no <em>SAP Business One</em>.</p>
-<p><strong><span class="twemoji verde"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"/></svg></span> - Contagem Finalizado</strong>: Esse <strong>Status</strong> quer dizer que foi criado o <strong><mark>Inventário</mark></strong> no SAP Business One.</p>
-<p><strong><span class="twemoji vermelho"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"/></svg></span> - Erro</strong>: Esse <strong>Status</strong> quer dizer que o <em>SAP Business One</em> gerou algum erro, para saber qual é basta posicionar o cursor em cima do <strong>Status</strong>.</p>
+<p><strong><span class="twemoji azul_status"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"/></svg></span> - O Status da Ordem de produção foi atualizada</strong>: Esse <strong>Status</strong> quer dizer que a <strong><mark>Produção</mark></strong> está aguardando para ser enviada à fila de integração com <em>SAP Business One</em>.</p>
+<p><strong><span class="twemoji preto"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"/></svg></span> - Aguardando integração</strong>: Esse <strong>Status</strong> quer dizer que a <strong><mark>Produção</mark></strong> está na fila de integração com o <em>SAP Business One</em>.</p>
+<p><strong><span class="twemoji vermelho"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"/></svg></span> - Erro</strong>: Esse <strong>Status</strong> quer dizer que o <em>SAP Business One</em> gerou algum erro, para saber qual é basta posicionar o cursor em cima do Status <strong>Status</strong>.</p>
 </div>
 </div>
 </div>
-<p>Existe duas maneiras de criar um <strong><mark>Inventário</mark></strong>, segue cada um deles:</p>
-<hr />
-<h2 id="contagem-de-estoque-manual"><strong>Contagem de Estoque - Manual</strong></h2>
-<p>Para conseguir criar uma nova, basta clicar em <strong>Novo</strong> e selecionar <strong>Inventário Manual</strong>.</p>
-<p><img alt="Inventario" src="../../img/inventario_06.png" /></p>
-<p>Uma nova página será aberta automaticamente, nessa tela é possível inserir os itens <strong>Unitários</strong> ou inserir os itens por <strong>Grupo de Itens</strong>, irei demonstrar para vocês às duas maneiras.</p>
-<p>Vamos começar por <strong>Grupo de Itens</strong>, para isso basta clicar no botão <strong>Adicionar Itens por Grupo</strong> e será listado todos os grupos de itens cadastrados no <em>SAP Business One</em>.</p>
-<p><img alt="Inventario" src="../../img/inventario_04.png" /></p>
-<p>Após listar todos os <strong>Grupos de Itens</strong>, é necessário selecionar apenas 1x, basta clicar 1x no grupo desejado.</p>
-<p>Será listado todos os itens de Compras daquele Grupo selecionado, portanto basta preencher os campos dos itens que você deseja e clicar em <strong>Incluir Produtos</strong>.</p>
-<p><img alt="Inventario" src="../../img/inventario_05.png" /></p>
-<div class="admonition warning">
-<p class="admonition-title">Inventário</p>
-<p>Lembrando que <strong>não precisa ser todos os itens</strong>, apenas os itens que você precisa.</p>
-</div>
-<p>Segue as informações dos campos:</p>
-<div class="tabbed-set" data-tabs="2:1"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><label for="__tabbed_2_1">Campos</label><div class="tabbed-content">
-<ul>
-<li><strong>Quantidade</strong>: Informar a quantidade que deseja comprar, lembrando que não é quantidade total dos itens (caso utilize conversões de medida).</li>
-<li><strong>Unidade de Medida</strong>: Informar a Unidade de Medida (conversão), exemplo: Irá comprar uma Caixa com 12 Unidades, basta escolher CX12UN.</li>
-</ul>
-</div>
-</div>
-<p>Depois da última etapa, será retornado para página inicial do <strong><mark>Inventário</mark></strong> e perceba que os itens que selecionou no grupo estão preenchidos nas linhas. Esse processo pode ser realizado <strong>quantas vezes for necessário</strong>, depende dos grupos que vocês possuem. </p>
-<p>Caso inseriu um item errado, basta clicar no <span class="twemoji close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M464 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm0 394c0 3.3-2.7 6-6 6H54c-3.3 0-6-2.7-6-6V86c0-3.3 2.7-6 6-6h404c3.3 0 6 2.7 6 6v340zM356.5 194.6 295.1 256l61.4 61.4c4.6 4.6 4.6 12.1 0 16.8l-22.3 22.3c-4.6 4.6-12.1 4.6-16.8 0L256 295.1l-61.4 61.4c-4.6 4.6-12.1 4.6-16.8 0l-22.3-22.3c-4.6-4.6-4.6-12.1 0-16.8l61.4-61.4-61.4-61.4c-4.6-4.6-4.6-12.1 0-16.8l22.3-22.3c4.6-4.6 12.1-4.6 16.8 0l61.4 61.4 61.4-61.4c4.6-4.6 12.1-4.6 16.8 0l22.3 22.3c4.7 4.6 4.7 12.1 0 16.8z"/></svg></span> ao final da linha do item, isso irá excluir aquela linha do Inventário.</p>
-<p><img alt="Inventario" src="../../img/inventario_07.png" /></p>
-<p>Para finalizar o <strong><mark>Inventário</mark></strong>, é necessário informar os dados do <strong>rodapé do documento</strong> e clicar em <strong>Salvar</strong>.</p>
-<p><img alt="Inventario" src="../../img/inventario_08.png" /></p>
-<p>Segue as informações dos campos:</p>
-<div class="tabbed-set" data-tabs="3:1"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><label for="__tabbed_3_1">Campos</label><div class="tabbed-content">
-<ul>
-<li><strong>Depósito</strong>: Será listado os depósitos da Filial do B1Beer, portanto basta selecionar qual depósito seria essa contagem</li>
-<li><strong>Data de Criação</strong>: Informar a data que foi realizada a contagem e não quando ela foi lançada</li>
-<li><strong>Observações</strong>: Caso seja necessário informar uma observação para histórico.</li>
-</ul>
-</div>
-</div>
-<p>Ao <strong>Salvar</strong>, a tela ficará sem os dados e será necessário clicar em <strong>Voltar</strong> para ir à página inicial do <strong><mark>Inventário</mark></strong>, onde deverá realizar a última etapa do processo.</p>
-<p><img alt="Inventario" src="../../img/inventario_09.png" /></p>
-<p>Será listado o <strong><mark>Inventário</mark></strong> que acabou de criar e com isso será listado 4 ações para esse <strong><mark>Inventário</mark></strong>, segue abaixo explicativo de cada uma delas.</p>
-<p><img alt="Inventario" src="../../img/inventario_10.png" /></p>
-<div class="tabbed-set" data-tabs="4:4"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><label for="__tabbed_4_1"><span class="twemoji search"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M505 442.7 405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg></span></label><div class="tabbed-content">
-<ul>
-<li>A ação <strong>Visualizar</strong> irá abrir o <strong><mark>Inventário</mark></strong> para poder avaliar algum item, por exemplo.
-<img align="left" alt="Inventario" src="../../img/inventario_14.png" /></li>
-</ul>
-</div>
-<input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><label for="__tabbed_4_2"><span class="twemoji close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M464 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-83.6 290.5c4.8 4.8 4.8 12.6 0 17.4l-40.5 40.5c-4.8 4.8-12.6 4.8-17.4 0L256 313.3l-66.5 67.1c-4.8 4.8-12.6 4.8-17.4 0l-40.5-40.5c-4.8-4.8-4.8-12.6 0-17.4l67.1-66.5-67.1-66.5c-4.8-4.8-4.8-12.6 0-17.4l40.5-40.5c4.8-4.8 12.6-4.8 17.4 0l66.5 67.1 66.5-67.1c4.8-4.8 12.6-4.8 17.4 0l40.5 40.5c4.8 4.8 4.8 12.6 0 17.4L313.3 256l67.1 66.5z"/></svg></span></label><div class="tabbed-content">
-<ul>
-<li>A ação <strong>Excluir</strong> irá apagar o <strong><mark>Inventário</mark></strong> criado.
-<img align="left" alt="Inventario" src="../../img/inventario_12.png" /></li>
-</ul>
-</div>
-<input id="__tabbed_4_3" name="__tabbed_4" type="radio" /><label for="__tabbed_4_3"><span class="twemoji check"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M400 480H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h352c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48zm-204.686-98.059 184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.248-16.379-6.249-22.628 0L184 302.745l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.25 16.379 6.25 22.628.001z"/></svg></span></label><div class="tabbed-content">
-<ul>
-<li>A ação <strong>Enviar</strong> irá enviar para o <em>SAP Business One</em> a criação desse <strong><mark>Inventário</mark></strong>.
-<img align="left" alt="Inventario" src="../../img/inventario_11.png" /></li>
-</ul>
-</div>
-<input id="__tabbed_4_4" name="__tabbed_4" type="radio" /><label for="__tabbed_4_4"><span class="twemoji pen"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M400 480H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48v352c0 26.5-21.5 48-48 48zM238.1 177.9 102.4 313.6l-6.3 57.1c-.8 7.6 5.6 14.1 13.3 13.3l57.1-6.3L302.2 242c2.3-2.3 2.3-6.1 0-8.5L246.7 178c-2.5-2.4-6.3-2.4-8.6-.1zM345 165.1 314.9 135c-9.4-9.4-24.6-9.4-33.9 0l-23.1 23.1c-2.3 2.3-2.3 6.1 0 8.5l55.5 55.5c2.3 2.3 6.1 2.3 8.5 0L345 199c9.3-9.3 9.3-24.5 0-33.9z"/></svg></span></label><div class="tabbed-content">
-<ul>
-<li>A ação <strong>Editar</strong> irá abrir o <strong><mark>Inventário</mark></strong> para realizar alguma edição.
-<img align="left" alt="Inventario" src="../../img/inventario_13.png" /></li>
-</ul>
-</div>
-</div>
-<p>Se você enviou o <strong><mark>Inventário</mark></strong>, <strong>depende da configuração</strong> do seu B1Beer ele pode ter ido direto para integrar com o <em>SAP Business One</em> ou ele pode ter entrado na <strong>aprovação</strong>, pode ser que você que faça ela ou outro usuário, mas irei explicar como realizar essa aprovação.</p>
-<p><img alt="Inventario" src="../../img/inventario_15.png" /></p>
-<div class="tabbed-set" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><label for="__tabbed_5_1"><span class="twemoji aprovar"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M104 224H24c-13.255 0-24 10.745-24 24v240c0 13.255 10.745 24 24 24h80c13.255 0 24-10.745 24-24V248c0-13.255-10.745-24-24-24zM64 472c-13.255 0-24-10.745-24-24s10.745-24 24-24 24 10.745 24 24-10.745 24-24 24zM384 81.452c0 42.416-25.97 66.208-33.277 94.548h101.723c33.397 0 59.397 27.746 59.553 58.098.084 17.938-7.546 37.249-19.439 49.197l-.11.11c9.836 23.337 8.237 56.037-9.308 79.469 8.681 25.895-.069 57.704-16.382 74.757 4.298 17.598 2.244 32.575-6.148 44.632C440.202 511.587 389.616 512 346.839 512l-2.845-.001c-48.287-.017-87.806-17.598-119.56-31.725-15.957-7.099-36.821-15.887-52.651-16.178-6.54-.12-11.783-5.457-11.783-11.998v-213.77c0-3.2 1.282-6.271 3.558-8.521 39.614-39.144 56.648-80.587 89.117-113.111 14.804-14.832 20.188-37.236 25.393-58.902C282.515 39.293 291.817 0 312 0c24 0 72 8 72 81.452z"/></svg></span></label><div class="tabbed-content">
-<ul>
-<li>A ação <strong>Aprovar</strong> irá enviar para o <em>SAP Business One</em> a criação desse <strong><mark>Inventário</mark></strong>.
-<img align="left" alt="Inventario" src="../../img/inventario_16.png" /></li>
-</ul>
-</div>
-<input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><label for="__tabbed_5_2"><span class="twemoji rejeitar"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M0 56v240c0 13.255 10.745 24 24 24h80c13.255 0 24-10.745 24-24V56c0-13.255-10.745-24-24-24H24C10.745 32 0 42.745 0 56zm40 200c0-13.255 10.745-24 24-24s24 10.745 24 24-10.745 24-24 24-24-10.745-24-24zm272 256c-20.183 0-29.485-39.293-33.931-57.795-5.206-21.666-10.589-44.07-25.393-58.902-32.469-32.524-49.503-73.967-89.117-113.111a11.98 11.98 0 0 1-3.558-8.521V59.901c0-6.541 5.243-11.878 11.783-11.998 15.831-.29 36.694-9.079 52.651-16.178C256.189 17.598 295.709.017 343.995 0h2.844c42.777 0 93.363.413 113.774 29.737 8.392 12.057 10.446 27.034 6.148 44.632 16.312 17.053 25.063 48.863 16.382 74.757 17.544 23.432 19.143 56.132 9.308 79.469l.11.11c11.893 11.949 19.523 31.259 19.439 49.197-.156 30.352-26.157 58.098-59.553 58.098H350.723C358.03 364.34 384 388.132 384 430.548 384 504 336 512 312 512z"/></svg></span></label><div class="tabbed-content">
-<ul>
-<li>A ação <strong>Rejeitar</strong> será necessário informar o <strong>Motivo</strong> que rejeitou, para que o usuário que fez saiba e consiga realizar as devidas alterações para reenviar novamente.
-<img alt="Inventario" src="../../img/inventario_17.png" /></li>
-</ul>
-</div>
-</div>
-<p>Caso o <strong><mark>Inventário</mark></strong> for aprovado, ele irá entrar para fila de envio para o <em>SAP Business One</em>, durante esse processo o <strong>Status</strong> ficará <span class="twemoji preto"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"/></svg></span>,caso der tudo certo o <strong>Status</strong> irá ficar <span class="twemoji verde"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"/></svg></span> e se der algum erro ao integrar com o <em>SAP Business One</em> o <strong>Status</strong> irá ficar <span class="twemoji vermelho"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"/></svg></span> e irá apresentar o erro.</p>
-<hr />
-<h2 id="contagem-de-estoque-agrupado"><strong>Contagem de Estoque - Agrupado</strong></h2>
-<p>O <strong>Inventário Agrupado</strong> será utilizado para processos onde será contado mais de 1 item fisicamente (Item X, Item Y e Item Z), mas o controle de estoque (movimentações) acontece no Item A.</p>
-<p>Para conseguir criar uma, basta clicar em <strong>Novo</strong> e selecionar <strong>Inventário Agrupado</strong>. </p>
-<p><img alt="Inventario" src="../../img/inventario_18.png" /></p>
-<p>Uma nova página será aberta automaticamente, nessa tela é necessário informar o item pai (que irá somar a contagem dos filhos) e os itens filhos.</p>
-<p><img alt="Inventario" src="../../img/inventario_19.png" /></p>
-<p>Segue as informações dos campos:</p>
-<div class="tabbed-set" data-tabs="6:2"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><label for="__tabbed_6_1">Contagem</label><div class="tabbed-content">
-<ul>
-<li><strong>Item</strong>: Informar o item pai.</li>
-<li><strong>Unidade de Medida</strong>: Informar a Unidade de Medida (conversão) do item pai.</li>
-</ul>
-</div>
-<input id="__tabbed_6_2" name="__tabbed_6" type="radio" /><label for="__tabbed_6_2">Itens em estoque</label><div class="tabbed-content">
-<ul>
-<li><strong>Item</strong>: Informar o item que foi contado fisicamente.</li>
-<li><strong>Quantidade</strong>: Informar a quantidade do item que foi contado fisicamente.</li>
-</ul>
-</div>
-</div>
-<p>Para finalizar o <strong><mark>Inventário</mark></strong>, é necessário informar os dados do <strong>rodapé do documento</strong> e clicar em <strong>Salvar</strong>.</p>
-<p><img alt="Inventario" src="../../img/inventario_20.png" /></p>
-<p>Segue as informações dos campos:</p>
-<div class="tabbed-set" data-tabs="7:1"><input checked="checked" id="__tabbed_7_1" name="__tabbed_7" type="radio" /><label for="__tabbed_7_1">Contagem</label><div class="tabbed-content">
-<ul>
-<li><strong>Depósito</strong>: Será listado os depósitos da Filial do B1Beer, portanto basta selecionar qual depósito seria essa contagem.</li>
-<li><strong>Data de Criação</strong>: Informar a data que foi realizada a contagem e não quando ela foi lançada.</li>
-<li><strong>Observações</strong>: Caso seja necessário informar uma observação para histórico.</li>
-</ul>
-</div>
-</div>
-<p>Ao <strong>Salvar</strong>, a tela ficará sem os dados e será necessário clicar em <strong>Voltar</strong> para ir à página inicial do <strong><mark>Inventário</mark></strong>, onde deverá realizar a última etapa do processo.</p>
-<p><img alt="Inventario" src="../../img/inventario_21.png" />
-<img alt="Inventario" src="../../img/inventario_22.png" /></p>
-<p>Será listado o <strong><mark>Inventário</mark></strong> que acabou de criar e com isso será listado 4 ações para esse <strong><mark>Inventário</mark></strong>, segue abaixo explicativo de cada uma delas.</p>
-<p><img alt="Inventario" src="../../img/inventario_23.png" /></p>
-<div class="tabbed-set" data-tabs="8:4"><input checked="checked" id="__tabbed_8_1" name="__tabbed_8" type="radio" /><label for="__tabbed_8_1"><span class="twemoji search"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M505 442.7 405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg></span></label><div class="tabbed-content">
-<ul>
-<li>A ação <strong>Visualizar</strong> irá abrir o <strong><mark>Inventário</mark></strong> para poder avaliar algum item, por exemplo. 
-<img align="left" alt="Inventario" src="../../img/inventario_24.png" /></li>
-</ul>
-</div>
-<input id="__tabbed_8_2" name="__tabbed_8" type="radio" /><label for="__tabbed_8_2"><span class="twemoji close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M464 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-83.6 290.5c4.8 4.8 4.8 12.6 0 17.4l-40.5 40.5c-4.8 4.8-12.6 4.8-17.4 0L256 313.3l-66.5 67.1c-4.8 4.8-12.6 4.8-17.4 0l-40.5-40.5c-4.8-4.8-4.8-12.6 0-17.4l67.1-66.5-67.1-66.5c-4.8-4.8-4.8-12.6 0-17.4l40.5-40.5c4.8-4.8 12.6-4.8 17.4 0l66.5 67.1 66.5-67.1c4.8-4.8 12.6-4.8 17.4 0l40.5 40.5c4.8 4.8 4.8 12.6 0 17.4L313.3 256l67.1 66.5z"/></svg></span></label><div class="tabbed-content">
-<ul>
-<li>A ação <strong>Excluir</strong> irá apagar o <strong><mark>Inventário</mark></strong> criado.
-<img align="left" alt="Inventario" src="../../img/inventario_25.png" /></li>
-</ul>
-</div>
-<input id="__tabbed_8_3" name="__tabbed_8" type="radio" /><label for="__tabbed_8_3"><span class="twemoji check"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M400 480H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h352c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48zm-204.686-98.059 184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.248-16.379-6.249-22.628 0L184 302.745l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.25 16.379 6.25 22.628.001z"/></svg></span></label><div class="tabbed-content">
-<ul>
-<li>A ação <strong>Enviar</strong> irá enviar para o <em>SAP Business One</em> a criação desse <strong><mark>Inventário</mark></strong>.
-<img align="left" alt="Inventario" src="../../img/inventario_26.png" /></li>
-</ul>
-</div>
-<input id="__tabbed_8_4" name="__tabbed_8" type="radio" /><label for="__tabbed_8_4"><span class="twemoji pen"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M400 480H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48v352c0 26.5-21.5 48-48 48zM238.1 177.9 102.4 313.6l-6.3 57.1c-.8 7.6 5.6 14.1 13.3 13.3l57.1-6.3L302.2 242c2.3-2.3 2.3-6.1 0-8.5L246.7 178c-2.5-2.4-6.3-2.4-8.6-.1zM345 165.1 314.9 135c-9.4-9.4-24.6-9.4-33.9 0l-23.1 23.1c-2.3 2.3-2.3 6.1 0 8.5l55.5 55.5c2.3 2.3 6.1 2.3 8.5 0L345 199c9.3-9.3 9.3-24.5 0-33.9z"/></svg></span></label><div class="tabbed-content">
-<ul>
-<li>A ação <strong>Editar</strong> irá abrir o <strong><mark>Inventário</mark></strong> para realizar alguma edição.
-<img align="left" alt="Inventario" src="../../img/inventario_27.png" /></li>
-</ul>
-</div>
-</div>
-<p>Se você enviou o <strong><mark>Inventário</mark></strong>, <strong>depende da configuração</strong> do seu B1Beer ele pode ter ido direto para integrar com o <em>SAP Business One</em> ou ele pode ter entrado na <strong>aprovação</strong>, pode ser que você que faça ela ou outro usuário, mas irei explicar como realizar essa aprovação.</p>
-<p><img alt="Inventario" src="../../img/inventario_28.png" /></p>
-<div class="tabbed-set" data-tabs="9:2"><input checked="checked" id="__tabbed_9_1" name="__tabbed_9" type="radio" /><label for="__tabbed_9_1"><span class="twemoji aprovar"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M104 224H24c-13.255 0-24 10.745-24 24v240c0 13.255 10.745 24 24 24h80c13.255 0 24-10.745 24-24V248c0-13.255-10.745-24-24-24zM64 472c-13.255 0-24-10.745-24-24s10.745-24 24-24 24 10.745 24 24-10.745 24-24 24zM384 81.452c0 42.416-25.97 66.208-33.277 94.548h101.723c33.397 0 59.397 27.746 59.553 58.098.084 17.938-7.546 37.249-19.439 49.197l-.11.11c9.836 23.337 8.237 56.037-9.308 79.469 8.681 25.895-.069 57.704-16.382 74.757 4.298 17.598 2.244 32.575-6.148 44.632C440.202 511.587 389.616 512 346.839 512l-2.845-.001c-48.287-.017-87.806-17.598-119.56-31.725-15.957-7.099-36.821-15.887-52.651-16.178-6.54-.12-11.783-5.457-11.783-11.998v-213.77c0-3.2 1.282-6.271 3.558-8.521 39.614-39.144 56.648-80.587 89.117-113.111 14.804-14.832 20.188-37.236 25.393-58.902C282.515 39.293 291.817 0 312 0c24 0 72 8 72 81.452z"/></svg></span></label><div class="tabbed-content">
-<ul>
-<li>A ação <strong>Aprovar</strong> irá enviar para o <em>SAP Business One</em> a criação desse <strong><mark>Inventário</mark></strong>.
-<img align="left" alt="Inventario" src="../../img/inventario_29.png" /></li>
-</ul>
-</div>
-<input id="__tabbed_9_2" name="__tabbed_9" type="radio" /><label for="__tabbed_9_2"><span class="twemoji rejeitar"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M0 56v240c0 13.255 10.745 24 24 24h80c13.255 0 24-10.745 24-24V56c0-13.255-10.745-24-24-24H24C10.745 32 0 42.745 0 56zm40 200c0-13.255 10.745-24 24-24s24 10.745 24 24-10.745 24-24 24-24-10.745-24-24zm272 256c-20.183 0-29.485-39.293-33.931-57.795-5.206-21.666-10.589-44.07-25.393-58.902-32.469-32.524-49.503-73.967-89.117-113.111a11.98 11.98 0 0 1-3.558-8.521V59.901c0-6.541 5.243-11.878 11.783-11.998 15.831-.29 36.694-9.079 52.651-16.178C256.189 17.598 295.709.017 343.995 0h2.844c42.777 0 93.363.413 113.774 29.737 8.392 12.057 10.446 27.034 6.148 44.632 16.312 17.053 25.063 48.863 16.382 74.757 17.544 23.432 19.143 56.132 9.308 79.469l.11.11c11.893 11.949 19.523 31.259 19.439 49.197-.156 30.352-26.157 58.098-59.553 58.098H350.723C358.03 364.34 384 388.132 384 430.548 384 504 336 512 312 512z"/></svg></span></label><div class="tabbed-content">
-<ul>
-<li>A ação <strong>Rejeitar</strong> será necessário informar o <strong>Motivo</strong> que rejeitou, para que o usuário que fez saiba e consiga realizar as devidas alterações para reenviar novamente.
-<img alt="Inventario" src="../../img/inventario_30.png" /></li>
-</ul>
-</div>
-</div>
-<p>Caso o <strong><mark>Inventário</mark></strong> for aprovado, ele irá entrar para fila de envio para o <em>SAP Business One</em>, durante esse processo o <strong>Status</strong> ficará <span class="twemoji preto"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"/></svg></span>,caso der tudo certo o <strong>Status</strong> irá ficar <span class="twemoji verde"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"/></svg></span> e se der algum erro ao integrar com o <em>SAP Business One</em> o <strong>Status</strong> irá ficar <span class="twemoji vermelho"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"/></svg></span> e irá apresentar o erro.</p>
                 
               
               
@@ -1159,7 +942,7 @@
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../../compras/pedido_venda/" class="md-footer__link md-footer__link--prev" rel="prev">
+        <a href="../medicao/" class="md-footer__link md-footer__link--prev" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -1168,19 +951,19 @@
               <span class="md-footer__direction">
                 Anterior
               </span>
-              Pedido de Venda
+              Medição
             </div>
           </div>
         </a>
       
       
-        <a href="../../conciliacao/forma_pagamento/" class="md-footer__link md-footer__link--next" rel="next">
+        <a href="../../docs_fiscais/depara/" class="md-footer__link md-footer__link--next" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Próximo
               </span>
-              Formas de Pagamentos
+              De Para de Produtos
             </div>
           </div>
           <div class="md-footer__button md-icon">
